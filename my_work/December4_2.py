@@ -14,6 +14,7 @@ while number != 0:
         negative_count += number
     number = int(input("Enter a number,0 to exit: "))
     counter= counter + 1
+
 total = sum_of_positive_count + sum_of_negative_count
 average = total /counter
 #print(f"The number of positive is {positive_count}\nThe number of negative is {negative_count}"
