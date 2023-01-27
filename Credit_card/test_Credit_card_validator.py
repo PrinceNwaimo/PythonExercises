@@ -1,5 +1,5 @@
 import unittest
-from Credit_card_validator import even_double_digits
+from Credit_card_validator.CardValidator import even_double_digits
 
 
 class TestCredit_card_validator(unittest.TestCase):
